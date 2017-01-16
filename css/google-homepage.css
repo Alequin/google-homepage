@@ -29,22 +29,33 @@ html{
   margin-right:auto;
 }
 
-#search-box{
+#search-box-container{
   width: 500px;
   border-radius: 0;
   margin-top: 110px;
   height: 30px;
-  background-color: transparent;
+  padding: 5px;
+  box-shadow: 0.5px 0.5px 10px 0 #000
+
+}
+
+#search-box{
+  position: absolute;
+  left:10px; top:0; bottom:0;
+  margin: auto;
+  width: 85%; height: 60%;
+  border: none;
 }
 
 .search-buttons{
   width: 144px; height: 36px;
   bottom: 0;
-  border-radius: 0;
   padding: 10px;
+  background-color: #f2f2f2
   font-family: arial, sans-serif;
   font-weight: bold;
   font-size: 13px;
+  border: none;
 }
 
 #google-search-button{
