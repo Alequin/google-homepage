@@ -35,8 +35,7 @@ html{
   margin-top: 110px;
   height: 30px;
   padding: 5px;
-  box-shadow: 0.5px 0.5px 10px 0 #000
-
+  box-shadow: 1px 1px 2px 0 grey;
 }
 
 #search-box{
