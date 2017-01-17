@@ -8,16 +8,63 @@
 <link rel="stylesheet" href="../css/base-settings.css" type="text/css">
 <link rel="stylesheet" href="../css/google-result.css" type="text/css">
 
-<head>
+</head>
 <body>
 
-<div id="nav-bar-top" class="scaffold-border bar-background-color"></div>
-<div id="nav-bar-bottom" class="scaffold-border bar-background-color"></div>
-<div id="search-results-container" class="scaffold-border"></div>
-<div id="suggested-search-container" class="scaffold-border"></div>
-<div id="page-number-container" class="scaffold-border"></div>
-<div id="footer-bar-top" class="scaffold-border bar-background-color"></div>
-<div id="footer-bar-bottom" class="scaffold-border bar-background-color"></div>
+<div id="nav-bar-top" class="bar-background-color">
 
-<body>
-<html>
+    <table id="nav-bar-table">
+      <td>
+        <a href=""><img id="logo" src="../images/logo.png" alt="google logo"></a>
+      </td>
+      <td id="search-box-container">
+        <div id="search-box-background">
+          <form id="search-box-form" action="google-result.html" method="POST" name="my_form">
+              <input id="search-box" type="text" name="search" placeholder="Search Result">
+          </form>
+
+          <a href="">
+            <img src="../images/mic.png" alt="speech recognition" id="mic-icon">
+            <img src="../images/magnify-glass.png" alt="search" id="magnify-icon">
+          </a>
+
+        </div>
+      </td>
+      <td id="nav-bar-top-space" width="55%">
+      </td>
+      <td id="apps-icon-container">
+        <a href=""><img src="../images/square-grid-icon.png" alt="Google Apps" id="apps-icon"></a>
+      </td>
+      <td>
+        <a href=""><p id="sign-in-button">Sign In</p></a>
+      </td>
+    </table>
+
+</div>
+
+<div id="nav-bar-bottom" class="scaffold-border bar-background-color">
+
+</div>
+
+<div id="search-results-container" class="scaffold-border">
+
+</div>
+
+<div id="suggested-search-container" class="scaffold-border">
+
+</div>
+
+<div id="page-number-container" class="scaffold-border">
+
+</div>
+
+<div id="footer-bar-top" class="scaffold-border bar-background-color">
+
+</div>
+
+<div id="footer-bar-bottom" class="scaffold-border bar-background-color">
+
+</div>
+
+</body>
+</html>

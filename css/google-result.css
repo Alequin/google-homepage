@@ -1,29 +1,112 @@
 
-
 #nav-bar-top{
-
+  padding: 20px 15px 30px;
 }
 
 #nav-bar-bottom{
-
+  height: 50px;
+  top: 80px;
 }
 
 #search-results-container{
-
+  height: 200px;
 }
 
 #suggested-search-container{
-
+    height: 200px;
 }
 
 #page-number-container{
-
+  height: 200px;
 }
 
 #footer-bar-top{
-
+  bottom: 50px;
 }
 
 #footer-bar-bottom{
+  bottom:0;
+}
 
+#nav-bar-top, #nav-bar-bottom, #footer-bar-top, #footer-bar-bottom{
+
+}
+
+#nav-bar-top, #nav-bar-bottom{
+
+}
+
+#footer-bar-top, #footer-bar-bottom{
+  height: 50px;
+}
+
+#logo{
+  width:120px; height:44px;
+}
+
+#search-box-container{
+  padding: 0;
+  width: 586px;
+  min-width: 586px;
+}
+
+#search-box-background{
+  background-color: white;
+  height: 44px; width: 100%;
+  box-shadow: 1px 1px 2px 0 grey;
+  -moz-box-shadow: 1px 1px 2px 0 grey;
+  -webkit-box-shadow: 1px 1px 2px 0 grey;
+  margin-left: 10px;
+  margin-bottom: 9px;
+}
+
+#search-box{
+  width:85%;
+  margin-left: 15px;
+  height: 44px;
+  border: none;
+  padding: 0;
+}
+
+#mic-image{
+  position: absolute;
+  top: 0;
+  width:24px; height:24px;
+  padding: 10px 0;
+  right:50px;
+}
+
+#magnify-image{
+  position: absolute;
+  top: -2px;
+  width:20px; height:20px;
+  padding: 14px 0;
+  right:15px;
+}
+
+#apps-icon{
+  width:25px; height:25px;
+  margin-left: 10px;
+}
+
+#apps-icon-container{
+  min-width: 35px;
+}
+
+#apps-icon{
+  margin-top: -1px;
+}
+
+#sign-in-button{
+  display: inline-block;
+  min-width: 60px;
+  margin: 0 10px;
+  margin-top: -8px;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: rgb(7,96,241);
+  padding: 7px 0px 7px 15px;
+  border-radius: 2px;
 }
