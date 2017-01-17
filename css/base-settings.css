@@ -3,3 +3,7 @@ html{
   padding: 0;
   font-family: arial, sans-serif;
 }
+
+.bar-background-color{
+  background-color: #f2f2f2;
+}
