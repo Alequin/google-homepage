@@ -61,27 +61,30 @@
 }
 
 #search-box{
-  width:85%;
-  margin-left: 15px;
+  position: relative;
+  width:490px;
   height: 44px;
   border: none;
-  padding: 0;
+  padding: 0 15px;
+  top:0;
 }
 
-#mic-image{
-  position: absolute;
-  top: 0;
+#mic-icon{
+  position: relative;
+  display: inline-block;
   width:24px; height:24px;
   padding: 10px 0;
-  right:50px;
+  top: -46px;
+  left:510px;
 }
 
-#magnify-image{
-  position: absolute;
-  top: -2px;
+#magnify-icon{
+  position: relative;
+  display: inline-block;
   width:20px; height:20px;
   padding: 14px 0;
-  right:15px;
+  top: -44px;
+  left:520px;
 }
 
 #apps-icon{
