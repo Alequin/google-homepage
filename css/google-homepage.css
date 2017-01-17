@@ -4,8 +4,22 @@ html{
   font-family: arial, sans-serif;
 }
 
-.tile{
-  border: 2px dotted black;
+.icon-image{
+  width: 30px; height: 30px;
+}
+
+#nav-list{
+  position: absolute;
+  right: 0;
+}
+
+#nav-list li{
+  margin-right: 15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.nav-list-text-element{
 }
 
 #section-1{
@@ -80,13 +94,13 @@ html{
 #footer{
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
   background-color: #f2f2f2
 }
 
 #nav-bar, #footer{
   width: 99%; height: 50px;
+  left: 0;
+  right: 0;
 }
 
 #footer-list-left{
@@ -98,6 +112,10 @@ li{
   display: inline;
   font-size: 13px;
   color: rgb(102,102,102);
+}
+
+li:hover{
+  text-decoration: underline;
 }
 
 #footer li{
