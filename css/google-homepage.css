@@ -47,11 +47,13 @@ html{
 #search-box-container{
   width: 500px;
   border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   margin-top: 110px;
   height: 30px;
   padding: 5px;
   box-shadow: 1px 1px 2px 0 grey;
-  -mov-box-shadow: 1px 1px 2px 0 grey;
+  -moz-box-shadow: 1px 1px 2px 0 grey;
   -webkit-box-shadow: 1px 1px 2px 0 grey;
 }
 
@@ -61,6 +63,8 @@ html{
   margin: auto;
   width: 85%; height: 60%;
   border: none;
+  -moz-border: none;
+  -webkit-border: none;
 }
 
 #mic-image{
@@ -81,6 +85,13 @@ html{
   color: grey;
   font-size: 13px;
   border: none;
+  border: 1px solid transparent;
+}
+
+.search-buttons:hover{
+  color: black;
+  background-color: #f2f2f2;
+  border: 1px solid rgb(198,198,198);
 }
 
 #google-search-button{
@@ -94,7 +105,11 @@ html{
 #footer{
   position: fixed;
   bottom: 0;
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
+  border-top: 1px solid rgb(242,242,242);
+  -moz-border-top: 1px solid rgb(242,242,242);
+  -webkit-border-top: 1px solid rgb(242,242,242);
+  min-width: 556px;
 }
 
 #nav-bar, #footer{
@@ -125,4 +140,8 @@ li:hover{
 #footer-list-right{
   position:absolute;
   right: 0;
+}
+
+a{
+  text-decoration: none;
 }
