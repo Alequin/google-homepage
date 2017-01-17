@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../css/google-result.css" type="text/css">
 <link rel="stylesheet" href="../css/top-nav-bar.css" type="text/css">
 <link rel="stylesheet" href="../css/bottom-nav-bar.css" type="text/css">
+<link rel="stylesheet" href="../css/search-results-container.css" type="text/css">
 
 </head>
 <body>
@@ -17,12 +18,15 @@
 
     <table id="nav-bar-table">
       <td>
-        <a href=""><img id="logo" src="../images/logo.png" alt="google logo"></a>
+          <h1><a href="">
+            <img id="logo" src="../images/logo.png" alt="google logo">
+          </a></h1>
+
       </td>
       <td id="search-box-container">
         <div id="search-box-background">
           <form id="search-box-form" action="google-result.html" method="POST" name="my_form">
-              <input id="search-box" type="text" name="search" placeholder="Search Result">
+              <input id="search-box" type="text" name="search" value="Space">
           </form>
 
           <a href="">
@@ -48,21 +52,30 @@
 
   <p id="all-button-nav-bar">All</p></a>
   <a href=""><p>Images</p></a>
-  bar<a href=""><p>News</p></a>
-  bar<a href=""><p>Videos</p></a>
-  bar<a href=""><p>Shopping</p></a>
-  bar<a href=""><p>More</p></a>
+  <a href=""><p>News</p></a>
+  <a href=""><p>Videos</p></a>
+  <a href=""><p>Shopping</p></a>
+  <a href=""><p>More</p></a>
 
   <span id="bottom-nav-bar-space"></span>
 
-  <p>Settings</p>
-  <p>Tools</p>
+  <a href=""><p>Settings</p></a>
+  <a href=""><p>Tools</p></a>
 
 </div>
 
 <div id="search-results-container">
+  <div id="search-results-inner-container">
 
+    <p id="">About 2,510,000,000 results</p>
+
+    <div>
+      <h2 class="result-header"></h2>
+    </div>
+
+  </div>
 </div>
+
 
 <div id="suggested-search-container" class="scaffold-border">
 

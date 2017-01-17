@@ -2,7 +2,6 @@
 #nav-bar-bottom{
   display: flex;
   font-family: arial, sans-serif;
-  color: rgb(119,119,119);
   font-size: 13px;
   padding-left: 150px;
   border-bottom: 3px solid black:
@@ -16,6 +15,7 @@
 }
 
 #nav-bar-bottom p{
+  color: rgb(119,119,119);
   margin: 0 0;
   padding-top: 5px;
   padding-bottom: 10px;

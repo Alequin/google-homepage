@@ -1,0 +1,9 @@
+
+#search-results-container{
+  height: 200px;
+}
+
+#search-results-inner-container{
+  height: 200px; width: 586px;
+  margin-left: 150px;
+}
