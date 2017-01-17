@@ -1,0 +1,30 @@
+
+#nav-bar-bottom{
+  display: flex;
+  font-family: arial, sans-serif;
+  color: rgb(119,119,119);
+  font-size: 13px;
+  padding-left: 150px;
+  border-bottom: 3px solid black:
+  -moz-border-bottom: 3px solid black:
+  -webkit-border-bottom: 3px solid black:
+}
+
+#all-button-nav-bar{
+  color: rgb(7,96,241);
+  border-bottom: 3px solid rgb(7,96,241);
+}
+
+#nav-bar-bottom p{
+  margin: 0 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#nav-bar-bottom p:hover{color:rgb(34,34,34);}
+
+#bottom-nav-bar-space{
+  width: 70px;
+}
