@@ -1,6 +1,7 @@
 html{
   margin: 0;
   padding: 0;
+  font-family: arial, sans-serif;
 }
 
 .tile{
@@ -36,6 +37,8 @@ html{
   height: 30px;
   padding: 5px;
   box-shadow: 1px 1px 2px 0 grey;
+  -mov-box-shadow: 1px 1px 2px 0 grey;
+  -webkit-box-shadow: 1px 1px 2px 0 grey;
 }
 
 #search-box{
@@ -62,7 +65,6 @@ html{
   padding: 10px;
   background-color: #f2f2f2
   color: grey;
-  font-family: arial, sans-serif;
   font-size: 13px;
   border: none;
 }
@@ -79,12 +81,30 @@ html{
   position: fixed;
   bottom: 0;
   left: 0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
+  right: 0;
   background-color: #f2f2f2
 }
 
 #nav-bar, #footer{
-    width: 100%; height: 30px;
+  width: 99%; height: 50px;
+}
+
+#footer-list-left{
+  position: absolute;
+  left: -10px;
+}
+
+li{
+  display: inline;
+  font-size: 13px;
+  color: rgb(102,102,102);
+}
+
+#footer li{
+  margin-right: 17px;
+}
+
+#footer-list-right{
+  position:absolute;
+  right: 0;
 }
