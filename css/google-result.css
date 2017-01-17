@@ -1,9 +1,9 @@
-
-
-
-#search-results-container{
-  height: 200px;
+a{
+  text-decoration: none;
 }
+
+
+
 
 #suggested-search-container{
     height: 200px;
