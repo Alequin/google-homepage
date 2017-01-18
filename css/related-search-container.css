@@ -1,0 +1,17 @@
+#related-search-table{
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+#related-search-table th{
+  font-size: 18px;
+  color: rgb(34,34,34);
+  font-weight: normal;
+  padding-bottom: 17px;
+}
+
+#related-search-table td{
+  font-size: 14px;
+  color: rgb(25,13,171);
+  padding-bottom: 6px;
+}
