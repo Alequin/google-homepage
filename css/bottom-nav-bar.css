@@ -3,24 +3,24 @@
   display: flex;
   font-family: arial, sans-serif;
   font-size: 13px;
-  padding-left: 150px;
+  padding: 0 0 0 150px;
   border-bottom: 3px solid black:
   -moz-border-bottom: 3px solid black:
   -webkit-border-bottom: 3px solid black:
 }
 
-#all-button-nav-bar{
-  color: rgb(7,96,241);
-  border-bottom: 3px solid rgb(7,96,241);
-}
-
-#nav-bar-bottom p{
+.bottom-nav-bar-text{
   color: rgb(119,119,119);
   margin: 0 0;
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+#all-button-nav-bar{
+  color: rgb(7,96,241);
+  border-bottom: 3px solid rgb(7,96,241);
 }
 
 #nav-bar-bottom p:hover{color:rgb(34,34,34);}

@@ -1,9 +1,50 @@
-
-#search-results-container{
-  height: 200px;
+#search-results-inner-container{
+  width: 586px;
+  margin-left: 150px;
 }
 
-#search-results-inner-container{
-  height: 200px; width: 586px;
-  margin-left: 150px;
+#result-count{
+  margin-bottom: 25px;
+}
+
+.result-holder{
+  margin-bottom: 26px;
+}
+
+.result-header{
+  font-size: 18px;
+  color: rgb(26,13,171);
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 2px 0;
+}
+
+.result-header:visited{
+  color: rgb(102,0,153);
+}
+
+.result-header:hover{
+  text-decoration: underline;
+}
+
+.result-link-container{
+  display: flex;
+}
+
+.result-link-container img{
+  width:13px; height:7px;
+  margin-top: 4px;
+  margin-left: 2px;
+}
+
+.result-link{
+  color: rgb(0,102,33);
+  padding: 0;
+  margin: 0;
+}
+
+.result-description{
+  color: rgb(84,84,84);
+  padding: 0;
+  margin: 0;
 }
