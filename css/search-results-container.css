@@ -48,3 +48,42 @@
   padding: 0;
   margin: 0;
 }
+
+#image-table th{
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+#image-table th:hover{
+    text-decoration: underline;
+}
+
+.result-image{
+  height:90px; width: 113.5px;
+}
+
+#image-options-container{
+  width: 100%;
+  margin: 0;
+}
+
+#image-options-container p{
+  margin: 0 0 0 10px;
+}
+
+#image-options-container a{
+  display: flex;
+}
+
+#report-images-link{
+  position: relative;
+  left: 480px;
+  top: -15px;
+  color: rgb(119,119,119);
+}
+
+#report-images-link:hover{
+  color: rgb(34,34,34);
+}
