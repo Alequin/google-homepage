@@ -1,12 +1,16 @@
 
+#footer-bar-bottom{
+  bottom:0;
+}
+
 #nav-bar-bottom{
   display: flex;
   font-family: arial, sans-serif;
   font-size: 13px;
   padding: 0 0 0 150px;
-  border-bottom: 3px solid black:
-  -moz-border-bottom: 3px solid black:
-  -webkit-border-bottom: 3px solid black:
+  border-bottom: 0.1px solid #dcdcdc;
+  -moz-border-bottom: 0.1px solid #dcdcdc;
+  -webkit-border-bottom: 0.1px solid #dcdcdc;
 }
 
 .bottom-nav-bar-text{

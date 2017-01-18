@@ -7,11 +7,13 @@
   font-size: 18px;
   color: rgb(34,34,34);
   font-weight: normal;
+  text-align: left;
   padding-bottom: 17px;
 }
 
 #related-search-table td{
   font-size: 14px;
   color: rgb(25,13,171);
-  padding-bottom: 6px;
+  padding: 0 0 6px 0;
+  width: 150px;
 }
