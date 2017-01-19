@@ -49,6 +49,10 @@
   left:520px;
 }
 
+#nav-bar-top-space{
+  width: 55%;
+}
+
 #apps-icon{
   width:25px; height:25px;
   margin-left: 10px;
